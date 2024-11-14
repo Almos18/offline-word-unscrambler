@@ -30,6 +30,8 @@ fn main() -> io::Result<()> {
             continue;
         }
 
+
+        
         if build_char_count(&line) == search_char_count {
             matches.push_str(&line);
             matches.push('\n');
