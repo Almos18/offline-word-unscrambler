@@ -22,6 +22,7 @@ fn main() -> io::Result<()> {
     }
 
     
+    
     let search_char_count = build_char_count(&search_str);
 
     for line in reader.lines() {
